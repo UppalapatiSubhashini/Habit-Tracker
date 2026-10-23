@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="HabitFlow - Build better habits and achieve your goals">
+
+    <title>HabitFlow | Habit & Goal Tracker</title>
+
+    <link rel="stylesheet" href="tracker.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <!-- LOGO -->
+
+    <a href="#dashboard" class="logo">
+
+        <span class="logo-icon">🔥</span>
+
+        <span class="logo-text">
+            HabitFlow
+        </span>
+
+    </a>
+
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar" id="navbar">
+
+        <a href="#dashboard">Dashboard</a>
+
+        <a href="#goals">Goals</a>
+
+        <a href="#habits">Habits</a>
+
+        <a href="#analytics">Analytics</a>
+
+        <a href="#focus">Focus</a>
+
+        <a href="#challenges">Challenges</a>
+
+    </nav>
+
+
+    <!-- MOBILE MENU BUTTON -->
+
+    <button
+        class="menu-btn"
+        id="menuBtn"
+        aria-label="Open navigation menu">
+
+        ☰
+
+    </button>
+
+
+    <!-- PROFILE -->
+
+    <div class="profile">
+
+        <button
+            class="notification-btn"
+            aria-label="Notifications">
+
+            🔔
+
+        </button>
+
+
+        <div class="profile-info">
+
+            <div class="profile-picture">
+                S
+            </div>
+
+            <span>
+                Subhashini
+            </span>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main class="container">
+
+
+<!-- =====================================================
+     DASHBOARD
+===================================================== -->
+
+<section id="dashboard"
+         class="dashboard">
+
+
+    <!-- WELCOME -->
+
+    <div class="welcome">
+
+        <div class="welcome-content">
+
+            <span class="welcome-label">
+                GOOD MORNING 👋
+            </span>
+
+            <h1>
+                Welcome back, Subhashini!
+            </h1>
+
+            <p>
+                Stay consistent today and get one step
+                closer to your goals.
+            </p>
+
+        </div>
+
+
+        <button class="primary-btn add-goal-btn">
+
+            + Add Goal
+
+        </button>
+
+    </div>
+
+
+
+    <!-- =================================================
+         STATISTICS
+    ================================================= -->
+
+    <div class="stats-grid">
+
+
+        <!-- STREAK -->
+
+        <article class="stat-card">
+
+            <div class="stat-icon">
+                🔥
+            </div>
+
+            <div>
+
+                <p>
+                    Current Streak
+                </p>
+
+                <h2>
+                    12 Days
+                </h2>
+
+                <span class="stat-positive">
+                    ↑ 3 days
+                </span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- GOAL PROGRESS -->
+
+        <article class="stat-card">
+
+            <div class="stat-icon">
+                🎯
+            </div>
+
+            <div>
+
+                <p>
+                    Goal Progress
+                </p>
+
+                <h2>
+                    78%
+                </h2>
+
+                <span class="stat-positive">
+                    ↑ 12%
+                </span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- HABITS -->
+
+        <article class="stat-card">
+
+            <div class="stat-icon">
+                ✅
+            </div>
+
+            <div>
+
+                <p>
+                    Today's Habits
+                </p>
+
+                <h2>
+                    8 / 10
+                </h2>
+
+                <span class="stat-positive">
+                    Great work!
+                </span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- FOCUS -->
+
+        <article class="stat-card">
+
+            <div class="stat-icon">
+                ⏱️
+            </div>
+
+            <div>
+
+                <p>
+                    Focus Time
+                </p>
+
+                <h2>
+                    3.5h
+                </h2>
+
+                <span class="stat-positive">
+                    ↑ 45m
+                </span>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+
+    <!-- =================================================
+         TODAY'S HABITS
+    ================================================= -->
+
+    <div class="section-card">
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    TODAY
+                </span>
+
+                <h2>
+                    Today's Habits
+                </h2>
+
+                <p>
+                    Stay consistent with your daily routine.
+                </p>
+
+            </div>
+
+            <a href="#habits">
+                View All →
+            </a>
+
+        </div>
+
+
+
+        <div class="habit-list">
+
+
+            <!-- HABIT 1 -->
+
+            <article class="habit-item">
+
+                <div class="habit-left">
+
+                    <div class="habit-icon">
+                        💻
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            DSA Practice
+                        </h3>
+
+                        <p>
+                            Complete 2 problems
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="habit-progress">
+
+                    <div class="progress-bar">
+
+                        <div
+                            class="progress-fill"
+                            style="width:100%;">
+                        </div>
+
+                    </div>
+
+                    <span>
+                        100%
+                    </span>
+
+                    <button class="complete-btn">
+                        ✓
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- HABIT 2 -->
+
+            <article class="habit-item">
+
+                <div class="habit-left">
+
+                    <div class="habit-icon">
+                        🌐
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Web Development
+                        </h3>
+
+                        <p>
+                            Practice for 1 hour
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="habit-progress">
+
+                    <div class="progress-bar">
+
+                        <div
+                            class="progress-fill"
+                            style="width:75%;">
+                        </div>
+
+                    </div>
+
+                    <span>
+                        75%
+                    </span>
+
+                    <button class="complete-btn">
+                        ✓
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- HABIT 3 -->
+
+            <article class="habit-item">
+
+                <div class="habit-left">
+
+                    <div class="habit-icon">
+                        📚
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Reading
+                        </h3>
+
+                        <p>
+                            Read 20 pages
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="habit-progress">
+
+                    <div class="progress-bar">
+
+                        <div
+                            class="progress-fill"
+                            style="width:40%;">
+                        </div>
+
+                    </div>
+
+                    <span>
+                        40%
+                    </span>
+
+                    <button class="complete-btn incomplete">
+                        ✓
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- HABIT 4 -->
+
+            <article class="habit-item">
+
+                <div class="habit-left">
+
+                    <div class="habit-icon">
+                        🏃
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Exercise
+                        </h3>
+
+                        <p>
+                            Workout for 30 minutes
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="habit-progress">
+
+                    <div class="progress-bar">
+
+                        <div
+                            class="progress-fill"
+                            style="width:100%;">
+                        </div>
+
+                    </div>
+
+                    <span>
+                        100%
+                    </span>
+
+                    <button class="complete-btn">
+                        ✓
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =================================================
+         WEEKLY PERFORMANCE
+    ================================================= -->
+
+    <div class="section-card">
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    PERFORMANCE
+                </span>
+
+                <h2>
+                    Weekly Performance
+                </h2>
+
+                <p>
+                    Your habit completion this week.
+                </p>
+
+            </div>
+
+
+            <select>
+
+                <option>
+                    This Week
+                </option>
+
+                <option>
+                    Last Week
+                </option>
+
+                <option>
+                    This Month
+                </option>
+
+            </select>
+
+        </div>
+
+
+
+        <div class="weekly-chart">
+
+
+            <div class="day">
+
+                <div
+                    class="chart-bar"
+                    style="height:70%;">
+                </div>
+
+                <span>Mon</span>
+
+            </div>
+
+
+            <div class="day">
+
+                <div
+                    class="chart-bar"
+                    style="height:85%;">
+                </div>
+
+                <span>Tue</span>
+
+            </div>
+
+
+            <div class="day">
+
+                <div
+                    class="chart-bar"
+                    style="height:60%;">
+                </div>
+
+                <span>Wed</span>
+
+            </div>
+
+
+            <div class="day">
+
+                <div
+                    class="chart-bar"
+                    style="height:90%;">
+                </div>
+
+                <span>Thu</span>
+
+            </div>
+
+
+            <div class="day">
+
+                <div
+                    class="chart-bar"
+                    style="height:75%;">
+                </div>
+
+                <span>Fri</span>
+
+            </div>
+
+
+            <div class="day">
+
+                <div
+                    class="chart-bar"
+                    style="height:95%;">
+                </div>
+
+                <span>Sat</span>
+
+            </div>
+
+
+            <div class="day">
+
+                <div
+                    class="chart-bar"
+                    style="height:50%;">
+                </div>
+
+                <span>Sun</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     GOALS
+===================================================== -->
+
+<section id="goals"
+         class="page-section">
+
+
+    <div class="page-header">
+
+        <div>
+
+            <span class="section-label">
+                MY GOALS
+            </span>
+
+            <h1>
+                Goals
+            </h1>
+
+            <p>
+                Turn your ambitions into achievable milestones.
+            </p>
+
+        </div>
+
+
+        <button class="primary-btn">
+            + Create Goal
+        </button>
+
+    </div>
+
+
+
+    <div class="goal-grid">
+
+
+        <!-- GOAL 1 -->
+
+        <article class="goal-card">
+
+            <div class="goal-header">
+
+                <div class="goal-icon">
+                    💻
+                </div>
+
+                <span class="goal-status">
+                    In Progress
+                </span>
+
+            </div>
+
+
+            <h2>
+                Master Java DSA
+            </h2>
+
+            <p>
+                Solve 100 DSA problems and master
+                important patterns.
+            </p>
+
+
+            <div class="goal-info">
+
+                <span>
+                    Progress
+                </span>
+
+                <strong>
+                    65%
+                </strong>
+
+            </div>
+
+
+            <div class="progress-bar">
+
+                <div
+                    class="progress-fill"
+                    style="width:65%;">
+                </div>
+
+            </div>
+
+
+            <div class="goal-footer">
+
+                <span>
+                    📅 Dec 31, 2026
+                </span>
+
+                <span>
+                    🔥 12 days
+                </span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- GOAL 2 -->
+
+        <article class="goal-card">
+
+            <div class="goal-header">
+
+                <div class="goal-icon">
+                    🌐
+                </div>
+
+                <span class="goal-status">
+                    In Progress
+                </span>
+
+            </div>
+
+
+            <h2>
+                Become a Full-Stack Developer
+            </h2>
+
+            <p>
+                Learn frontend, backend, databases
+                and deployment.
+            </p>
+
+
+            <div class="goal-info">
+
+                <span>
+                    Progress
+                </span>
+
+                <strong>
+                    42%
+                </strong>
+
+            </div>
+
+
+            <div class="progress-bar">
+
+                <div
+                    class="progress-fill"
+                    style="width:42%;">
+                </div>
+
+            </div>
+
+
+            <div class="goal-footer">
+
+                <span>
+                    📅 Jan 30, 2027
+                </span>
+
+                <span>
+                    🚀 24 Tasks
+                </span>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- GOAL 3 -->
+
+        <article class="goal-card">
+
+            <div class="goal-header">
+
+                <div class="goal-icon">
+                    📚
+                </div>
+
+                <span class="goal-status completed">
+                    Completed
+                </span>
+
+            </div>
+
+
+            <h2>
+                Read 10 Books
+            </h2>
+
+            <p>
+                Read and complete 10 books this year.
+            </p>
+
+
+            <div class="goal-info">
+
+                <span>
+                    Progress
+                </span>
+
+                <strong>
+                    100%
+                </strong>
+
+            </div>
+
+
+            <div class="progress-bar">
+
+                <div
+                    class="progress-fill"
+                    style="width:100%;">
+                </div>
+
+            </div>
+
+
+            <div class="goal-footer">
+
+                <span>
+                    ✅ Completed
+                </span>
+
+                <span>
+                    🏆 Achievement
+                </span>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     HABITS
+===================================================== -->
+
+<section id="habits"
+         class="page-section">
+
+
+    <div class="page-header">
+
+        <div>
+
+            <span class="section-label">
+                DAILY ROUTINE
+            </span>
+
+            <h1>
+                Habit Tracker
+            </h1>
+
+            <p>
+                Build consistency one day at a time.
+            </p>
+
+        </div>
+
+
+        <button class="primary-btn">
+            + Add Habit
+        </button>
+
+    </div>
+
+
+
+    <div class="section-card">
+
+
+        <div class="habit-table">
+
+            <div class="table-header">
+
+                <span>
+                    Habit
+                </span>
+
+                <span>Mon</span>
+                <span>Tue</span>
+                <span>Wed</span>
+                <span>Thu</span>
+                <span>Fri</span>
+                <span>Sat</span>
+                <span>Sun</span>
+
+            </div>
+
+
+
+            <div class="table-row">
+
+                <strong>
+                    DSA Practice
+                </strong>
+
+                <span>✓</span>
+                <span>✓</span>
+                <span>✓</span>
+                <span>✓</span>
+                <span>✓</span>
+                <span>✓</span>
+                <span>✓</span>
+
+            </div>
+
+
+
+            <div class="table-row">
+
+                <strong>
+                    Reading
+                </strong>
+
+                <span>✓</span>
+                <span>✓</span>
+                <span class="missed">×</span>
+                <span>✓</span>
+                <span>✓</span>
+                <span>✓</span>
+                <span class="missed">×</span>
+
+            </div>
+
+
+
+            <div class="table-row">
+
+                <strong>
+                    Exercise
+                </strong>
+
+                <span class="missed">×</span>
+                <span>✓</span>
+                <span>✓</span>
+                <span>✓</span>
+                <span class="missed">×</span>
+                <span>✓</span>
+                <span>✓</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ANALYTICS
+===================================================== -->
+
+<section id="analytics"
+         class="page-section">
+
+
+    <div class="page-header">
+
+        <div>
+
+            <span class="section-label">
+                INSIGHTS
+            </span>
+
+            <h1>
+                Analytics
+            </h1>
+
+            <p>
+                Understand your habits and improve your consistency.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="analytics-grid">
+
+
+        <article class="analytics-card">
+
+            <span class="analytics-icon">
+                📈
+            </span>
+
+            <h3>
+                Overall Completion
+            </h3>
+
+            <div class="big-number">
+                78%
+            </div>
+
+            <p class="analytics-positive">
+                ↑ 12% compared to last month
+            </p>
+
+        </article>
+
+
+
+        <article class="analytics-card">
+
+            <span class="analytics-icon">
+                🔥
+            </span>
+
+            <h3>
+                Longest Streak
+            </h3>
+
+            <div class="big-number">
+                32
+            </div>
+
+            <p>
+                Your personal best
+            </p>
+
+        </article>
+
+
+
+        <article class="analytics-card">
+
+            <span class="analytics-icon">
+                🏆
+            </span>
+
+            <h3>
+                Best Habit
+            </h3>
+
+            <div class="big-number text-number">
+                DSA
+            </div>
+
+            <p>
+                91% completion rate
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOCUS MODE
+===================================================== -->
+
+<section id="focus"
+         class="page-section">
+
+
+    <div class="page-header">
+
+        <div>
+
+            <span class="section-label">
+                PRODUCTIVITY
+            </span>
+
+            <h1>
+                Focus Mode
+            </h1>
+
+            <p>
+                Deep work. No distractions.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="focus-container">
+
+
+        <div class="timer">
+
+            <span>
+                FOCUS SESSION
+            </span>
+
+            <h1>
+                25:00
+            </h1>
+
+            <button class="primary-btn">
+                Start Focus
+            </button>
+
+        </div>
+
+
+
+        <div class="focus-task">
+
+            <span class="section-label">
+                CURRENT TASK
+            </span>
+
+            <h2>
+                Complete 2 DSA Problems
+            </h2>
+
+            <p>
+                Goal: Master Java DSA
+            </p>
+
+
+            <div class="task-progress">
+
+                <div class="progress-bar">
+
+                    <div
+                        class="progress-fill"
+                        style="width:65%;">
+                    </div>
+
+                </div>
+
+                <span>
+                    65%
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CHALLENGES
+===================================================== -->
+
+<section id="challenges"
+         class="page-section">
+
+
+    <div class="page-header">
+
+        <div>
+
+            <span class="section-label">
+                COMMUNITY
+            </span>
+
+            <h1>
+                Challenges
+            </h1>
+
+            <p>
+                Challenge yourself and stay accountable.
+            </p>
+
+        </div>
+
+
+        <button class="primary-btn">
+            + Create Challenge
+        </button>
+
+    </div>
+
+
+
+    <div class="challenge-grid">
+
+
+        <article class="challenge-card">
+
+            <span class="challenge-icon">
+                🔥
+            </span>
+
+            <span class="challenge-badge">
+                POPULAR
+            </span>
+
+            <h2>
+                30 Day DSA Challenge
+            </h2>
+
+            <p>
+                Solve at least 2 DSA problems every day
+                for 30 days.
+            </p>
+
+
+            <div class="challenge-info">
+
+                <span>
+                    👥 124 Participants
+                </span>
+
+                <span>
+                    🔥 12 Days
+                </span>
+
+            </div>
+
+
+            <button class="join-btn">
+                Join Challenge →
+            </button>
+
+        </article>
+
+
+
+        <article class="challenge-card">
+
+            <span class="challenge-icon">
+                📚
+            </span>
+
+            <span class="challenge-badge">
+                BEGINNER
+            </span>
+
+            <h2>
+                Read Every Day
+            </h2>
+
+            <p>
+                Read at least 20 pages every day
+                for 21 days.
+            </p>
+
+
+            <div class="challenge-info">
+
+                <span>
+                    👥 86 Participants
+                </span>
+
+                <span>
+                    📅 21 Days
+                </span>
+
+            </div>
+
+
+            <button class="join-btn">
+                Join Challenge →
+            </button>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-logo">
+        🔥 HabitFlow
+    </div>
+
+    <p>
+        Build better habits. Achieve bigger goals.
+    </p>
+
+    <div class="footer-links">
+
+        <a href="#dashboard">
+            Dashboard
+        </a>
+
+        <a href="#goals">
+            Goals
+        </a>
+
+        <a href="#habits">
+            Habits
+        </a>
+
+        <a href="#analytics">
+            Analytics
+        </a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 HabitFlow. All rights reserved.
+    </p>
+
+</footer>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+     Temporary mobile menu functionality
+===================================================== -->
+
+<script>
+
+    const menuBtn =
+        document.getElementById("menuBtn");
+
+    const navbar =
+        document.getElementById("navbar");
+
+
+    menuBtn.addEventListener("click", function () {
+
+        navbar.classList.toggle("mobile-active");
+
+        if (
+            navbar.classList.contains("mobile-active")
+        ) {
+
+            menuBtn.textContent = "✕";
+
+        } else {
+
+            menuBtn.textContent = "☰";
+
+        }
+
+    });
+
+
+    /* Close menu after clicking a link */
+
+    const navLinks =
+        document.querySelectorAll(".navbar a");
+
+
+    navLinks.forEach(function (link) {
+
+        link.addEventListener("click", function () {
+
+            navbar.classList.remove("mobile-active");
+
+            menuBtn.textContent = "☰";
+
+        });
+
+    });
+
+</script>
+
+
+</body>
+<script src="tracker.js"></script>
+</html>
